@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bubble Drop</title>
+    <link rel="stylesheet" href="libs/chief-slider/chief-slider-custom.min.css">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <div class="fields firstField">
+        <div class="header">
+            <div>2021*</div><div id="lang"><span>EN/</span>RU</div><div>2022</div>
+        </div>
+        <div class="mountain"></div>
+        <div class="sideText">
+            <div class="left-mes">NEW COLLECTION</div>
+            <div class="scroll-num">
+                <div class="num activeNum">01</div>
+                <div class="hr"><hr></div>
+                <div class="num">02</div>
+                <div class="num">03</div>
+                <div class="num">04</div>
+                <div class="num">05</div>
+            </div>
+            <div class="right-mes">PUSHKEEN & BACK TO THE ROOTS</div>
+        </div>
+        <div id="h1"><h1>Bubble Drop</h1></div>
+        <div id="firstParagraph">Рассмотрим основные развивающиеся тренды 2022 года в моушн дизайне.</div>
+        <div id="tokensGroup">
+            <div id="binance"></div>
+            <div id="tokens420">420 TOKENS</div>
+        </div>
+    </div>
+    <div class="fields secondField">
+        <div class="group">
+            <img class="whats what2" src="images/what3.png" alt="">
+            <img class="whats what1" src="images/what1.png" alt="">
+            <img class="whats what3" src="images/what1.png" alt="">
+        </div>
+        <div class="group">
+            <img class="whats what4" src="images/what4.png" alt="">
+            <img class="whats what5" src="images/what1.png" alt="">
+        </div>
+        <div class="group">
+            <img class="whats what7" src="images/what3.png" alt="">
+            <img class="whats what6" src="images/what1.png" alt="">
+        </div>
+        <div class="group">
+            <img class="whats what9" src="images/what4.png" alt="">
+            <img class="whats what8" src="images/what1.png" alt="">
+            <img class="whats what10" src="images/what1.png" alt="">
+        </div>
+        <div class="secondFieldGradient"></div>
+    </div>
+    <div class="fields thirdField">
+        <div class="thirdFieldBackImage">
+            <div class="bubblePoint"><img src="images/point.png" alt=""></div>
+            <div class="bubbleTeam">Команда Bubble</div>
+        </div>
+        <div class="thirdFieldGradient"></div>
+        <div class="sideText floatLeft">
+            <div class="scroll-num2">
+                <div class="num">01</div>
+                <div class="num activeNum">02</div>
+                <div class="hr"><hr></div>
+                <div class="num">03</div>
+                <div class="num">04</div>
+                <div class="num">05</div>
+            </div>
+        </div>
+        <div class="info">
+            <div><h2>О ПРОЕКТЕ</h2></div>
+            <div class="secondParagraph">Затронем тенденции, начиная с фильмов и коммерческой рекламы,
+                до тематических исследований и всего, что между ними.
+                Вы не увидели бы эту статью без бесчисленных вкладов.</div>
+            <div class="GQ"><img src="images/GQ.png" alt=""></div>
+            <div><a href="#">Читать больше в статье</a></div>
+        </div>
+    </div>
+    <div class="fields fourthField"></div>
+    <div class="fields fifthField">
+        <div id="box-buttons">
+            <button class="button active" onclick="changeImage()">Редкие</button>
+            <button class="button" onclick="changeImage()">Очень редкие</button>
+        </div>
+        <div id="images">
+            <div class="slider">
+                <div class="slider__wrapper">
+                    <div class="slider__items">
+                        <div class="slider__item">
+                            <img class="mainImage change slider__content_img" src="images/rare4.png" alt="" loading="lazy">
+                        </div>
+                        <div class="slider__item">
+                            <img class="mainImage change slider__content_img" src="images/rare1.png" alt="" loading="lazy">
+                        </div>
+                        <div class="slider__item">
+                            <img class="mainImage change slider__content_img" src="images/rare2.png" alt="" loading="lazy">
+                        </div>
+                        <div class="slider__item">
+                            <img class="mainImage change slider__content_img" src="images/rare3.png" alt="" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+                <button class="arrow arrowLeft vaBottom slider__control" data-slide="prev" onclick="plusSlides(-1)">&#10094;</button>
+                <button class="arrow arrowRight vaBottom slider__control" data-slide="next" onclick="plusSlides(1)">&#10095;</button>
+            </div>
+        </div>
+        <!--<div id="images">
+            <div class="marginImages">
+                <img class="sideImages change" src="images/rare4.png" alt="">
+                <img class="mainImage change" src="images/rare1.png" alt="">
+                <img class="sideImages change" src="images/rare2.png" alt="">
+            </div>
+        </div>-->
+        <div id="imagesGradient"></div>
+        <div id="lastBox">
+            <div id="h3">
+                <div>
+                    <h3 class="leftName fade">МАКСИМ КУЛАГИН</h3>
+                    <h3 class="leftName fade">ЕЛЕНА ДЕНИСОВА</h3>
+                    <h3 class="leftName fade">СВЕТА БЕЛАЯ</h3>
+                    <h3 class="leftName fade">НАДЯ АВДЕЕВА</h3>
+                </div>
+                <div>
+                    <h3 class="centerName fade">ЕЛЕНА ДЕНИСОВА</h3>
+                    <h3 class="centerName fade">СВЕТА БЕЛАЯ</h3>
+                    <h3 class="centerName fade">НАДЯ АВДЕЕВА</h3>
+                    <h3 class="centerName fade">МАКСИМ КУЛАГИН</h3>
+                </div>
+                <div>
+                    <h3 class="rightName fade">СВЕТА БЕЛАЯ</h3>
+                    <h3 class="rightName fade">НАДЯ АВДЕЕВА</h3>
+                    <h3 class="rightName fade">МАКСИМ КУЛАГИН</h3>
+                    <h3 class="rightName fade">ЕЛЕНА ДЕНИСОВА</h3>
+                </div>
+            </div>
+            <div id="h4">
+                <!--<button class="arrowLeft vaBottom" onclick="plusSlides(-1)">&#10094;</button>-->
+                <div class="vaBottom"></div>
+                <div class="vaBottom">
+                    <h4 class="fade">«bub1»</h4>
+                    <h4 class="fade">«bub2»</h4>
+                    <h4 class="fade">«bub3»</h4>
+                    <h4 class="fade">«bub4»</h4>
+                </div>
+                <div class="vaBottom"></div>
+                <!--<button class="arrowRight vaBottom" onclick="plusSlides(1)">&#10095;</button>-->
+            </div>
+            <div id="textAndPhoto">
+                <div id="textInQuotes">
+                    <div class="quote-up">бб</div>
+                    <div class="lastParagraph fade">Фрилансер моушн дизайнер, иллюстратор и энтузиаст Бэн Марриот из
+                        Сиднея собирает классные свежие подборки анимационных работ.
+                        У него хороший вкус и выбранные ним работы точно вдохновят вас на
+                        что-то клёвое. От рекламных роликов до снимков продукта, маркетинговых
+                        кампаний и дизайна игр, используя возможности 3D открываются новые
+                        двери для отображения картин.</div>
+                    <div class="lastParagraph fade">Если в последние 12 месяцев Вы находились рядом с технически подкованным
+                        другом или родственником, есть большая вероятность того, что в какой-то
+                        момент Вы слышали упоминание о виртуальной реальности. Виртуальная реальность
+                        неуклонно возрастала от амбициозной фантазии, ориентированной на игры,
+                        еще в 2012 году, до реальной среды.</div>
+                    <div class="lastParagraph fade">Благодаря их малым масштабам и широкой доступности, gif являются отличным
+                        способом привлечь клиентов и поделиться идеями, особенно в социальных сетях.
+                        GIF могут быть еще больше использованы компаниями, которые хотят
+                        продавать себя в цифровом пространстве.</div>
+                    <div class="lastParagraph fade">Использование визуальных эффектов в рекламных роликах позволило компаниям
+                        продвигать презентацию своих продуктов. А это является важным аспектом для
+                        любой маркетинговой кампании. От улучшения деталей и эстетики, которые
+                        способствуют построению более красивой картинки до повышения драматических
+                        моментов и увеличения общего эффекта от рекламы.</div>
+                    <div class="quote-bottom">бб</div>
+                </div>
+                <div id="rightPhoto">
+                    <div class="words vaBottom">
+                        <div id="tokens60">60 TOKENS</div>
+                        <div id="dog">@elena</div>
+                    </div>
+                    <div class="photo vaBottom">
+                        <img class="photos fade" src="images/foto1.png" alt="">
+                        <img class="photos fade" src="images/foto2.png" alt="">
+                        <img class="photos fade" src="images/foto3.png" alt="">
+                        <img class="photos fade" src="images/foto4.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--    <h3>СВЕТА БЕЛАЯ</h3>
+
+        <h3>НАДЯ АВДЕЕВА</h3>
+
+        <h3>МАКС КУЛАГИН</h3>-->
+</body>
+<script defer src="libs/chief-slider/chief-slider.min.js"></script>
+<script type="text/javascript" src="scripts/scripts.js"></script>
+</html>
